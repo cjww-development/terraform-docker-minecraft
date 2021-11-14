@@ -72,11 +72,11 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_jenkins_container_entrypoint"></a> [jenkins\_container\_entrypoint](#output\_jenkins\_container\_entrypoint) | List of the entrypoints for the deployed container |
-| <a name="output_jenkins_container_hostname"></a> [jenkins\_container\_hostname](#output\_jenkins\_container\_hostname) | The hostname assigned to the container after deploy |
-| <a name="output_jenkins_container_id"></a> [jenkins\_container\_id](#output\_jenkins\_container\_id) | The id of the deployed container |
-| <a name="output_jenkins_container_ip"></a> [jenkins\_container\_ip](#output\_jenkins\_container\_ip) | The ip address of the deployed container |
-| <a name="output_jenkins_container_networks"></a> [jenkins\_container\_networks](#output\_jenkins\_container\_networks) | The networks associated with the deployed container |
+| <a name="output_minecraft_container_entrypoint"></a> [minecraft\_container\_entrypoint](#output\_minecraft\_container\_entrypoint) | List of the entrypoints for the deployed container |
+| <a name="output_minecraft_container_hostname"></a> [minecraft\_container\_hostname](#output\_minecraft\_container\_hostname) | The hostname assigned to the container after deploy |
+| <a name="output_minecraft_container_id"></a> [minecraft\_container\_id](#output\_minecraft\_container\_id) | The id of the deployed container |
+| <a name="output_minecraft_container_ip"></a> [minecraft\_container\_ip](#output\_minecraft\_container\_ip) | The ip address of the deployed container |
+| <a name="output_minecraft_container_networks"></a> [minecraft\_container\_networks](#output\_minecraft\_container\_networks) | The networks associated with the deployed container |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 License
