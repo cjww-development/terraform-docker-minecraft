@@ -61,6 +61,7 @@ No modules.
 | <a name="input_minecraft_network_name"></a> [minecraft\_network\_name](#input\_minecraft\_network\_name) | The name of the docker network that the Minecraft server container will be connected to | `string` | n/a | yes |
 | <a name="input_minecraft_version"></a> [minecraft\_version](#input\_minecraft\_version) | The version of minecraft to be run e.g. 1.16.5 | `string` | n/a | yes |
 | <a name="input_minecraft_volume_name"></a> [minecraft\_volume\_name](#input\_minecraft\_volume\_name) | The name of the docker volume to be used by the Minecraft server container | `string` | n/a | yes |
+| <a name="input_other_environment_variables"></a> [other\_environment\_variables](#input\_other\_environment\_variables) | Use this list to include any other env vars that aren't included by default. Other env vars can be found here https://github.com/itzg/docker-minecraft-server | `list(string)` | `[]` | no |
 | <a name="input_player_whitelist"></a> [player\_whitelist](#input\_player\_whitelist) | The list of players tht are allowed to play on the server | `list(string)` | n/a | yes |
 | <a name="input_pvp"></a> [pvp](#input\_pvp) | By default, servers are created with player-vs-player (PVP) mode enabled. You can disable this with the PVP environment variable set to false | `bool` | `false` | no |
 | <a name="input_rcon_interface_bind"></a> [rcon\_interface\_bind](#input\_rcon\_interface\_bind) | The network interface that port 25575 will bind to | `string` | `"0.0.0.0"` | no |

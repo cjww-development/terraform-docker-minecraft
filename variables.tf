@@ -244,3 +244,9 @@ variable "use_aikars_flags" {
   type        = bool
   description = "Use the optimal JVM flags defined by Aikar, https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/"
 }
+
+variable "other_environment_variables" {
+  type        = list(string)
+  description = "Use this list to include any other env vars that aren't included by default. Other env vars can be found here https://github.com/itzg/docker-minecraft-server"
+  default     = []
+}
