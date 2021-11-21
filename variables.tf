@@ -211,3 +211,14 @@ variable "level_type" {
     error_message = "The provided value did not match a valid value."
   }
 }
+
+variable "minecraft_version" {
+  type        = string
+  description = "The version of minecraft to be run e.g. 1.16.5"
+}
+
+variable "java_version" {
+  type        = string
+  description = "The version of java to use in the container. As defined here https://github.com/itzg/docker-minecraft-server/blob/master/README.md#running-minecraft-server-on-different-java-version"
+  default     = "latest"
+}

@@ -41,6 +41,8 @@ resource "docker_container" "minecraft" {
     "MODE=${var.game_mode}",
     "PVP=${var.pvp}",
     "LEVEL_TYPE=${var.level_type}",
-    "TYPE=${var.server_type}"
+    "TYPE=${var.server_type}",
+    "VERSION=${var.minecraft_version}",
+    "OVERRIDE_SERVER_PROPERTIES=TRUE"
   ]
 }

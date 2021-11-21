@@ -46,6 +46,7 @@ No modules.
 | <a name="input_force_gamemode"></a> [force\_gamemode](#input\_force\_gamemode) | Force players to join in the default game mode. False = Players will join in the game mode they left in, True = Players will always join in the default game mode. | `bool` | n/a | yes |
 | <a name="input_game_mode"></a> [game\_mode](#input\_game\_mode) | Changes the game mode between survival, creative, adventure and spectator | `string` | n/a | yes |
 | <a name="input_generate_structures"></a> [generate\_structures](#input\_generate\_structures) | Should structures (such as villages) be generated? | `bool` | n/a | yes |
+| <a name="input_java_version"></a> [java\_version](#input\_java\_version) | The version of java to use in the container. As defined here https://github.com/itzg/docker-minecraft-server/blob/master/README.md#running-minecraft-server-on-different-java-version | `string` | `"latest"` | no |
 | <a name="input_level_seed"></a> [level\_seed](#input\_level\_seed) | Sets the servers seed | `string` | n/a | yes |
 | <a name="input_level_type"></a> [level\_type](#input\_level\_type) | By default, a standard world is generated with hills, valleys, water, etc. A different level type can be configured by setting LEVEL\_TYPE to an expected type | `string` | n/a | yes |
 | <a name="input_max_build_height"></a> [max\_build\_height](#input\_max\_build\_height) | The maximum height in which building is allowed. Terrain may still naturally generate above a low height limit | `number` | `256` | no |
@@ -55,6 +56,7 @@ No modules.
 | <a name="input_minecraft_container_name"></a> [minecraft\_container\_name](#input\_minecraft\_container\_name) | The name of the Minecraft server container to be created | `string` | n/a | yes |
 | <a name="input_minecraft_image_name"></a> [minecraft\_image\_name](#input\_minecraft\_image\_name) | The name of the Minecraft server docker image that should be pulled | `string` | n/a | yes |
 | <a name="input_minecraft_network_name"></a> [minecraft\_network\_name](#input\_minecraft\_network\_name) | The name of the docker network that the Minecraft server container will be connected to | `string` | n/a | yes |
+| <a name="input_minecraft_version"></a> [minecraft\_version](#input\_minecraft\_version) | The version of minecraft to be run e.g. 1.16.5 | `string` | n/a | yes |
 | <a name="input_minecraft_volume_name"></a> [minecraft\_volume\_name](#input\_minecraft\_volume\_name) | The name of the docker volume to be used by the Minecraft server container | `string` | n/a | yes |
 | <a name="input_player_whitelist"></a> [player\_whitelist](#input\_player\_whitelist) | The list of players tht are allowed to play on the server | `list(string)` | n/a | yes |
 | <a name="input_pvp"></a> [pvp](#input\_pvp) | By default, servers are created with player-vs-player (PVP) mode enabled. You can disable this with the PVP environment variable set to false | `bool` | `false` | no |
