@@ -26,6 +26,7 @@ resource "docker_container" "minecraft" {
     "ENABLE_ROLLING_LOGS=${var.enable_rolling_logs}",
     "EULA=true",
     "DIFFICULTY=${var.difficulty}",
+    "ENABLE_AUTOPAUSE=${var.enable_autopause}",
     "FORCE_GAMEMODE=${var.force_gamemode}",
     "GENERATE_STRUCTURES=${var.generate_structures}",
     "LEVEL_TYPE=${var.level_type}",

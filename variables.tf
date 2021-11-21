@@ -234,3 +234,8 @@ variable "enable_rolling_logs" {
   description = "By default the vanilla log file will grow without limit. The logger can be reconfigured to use a rolling log files. Set to false to disable rolling logs."
   default     = true
 }
+
+variable "enable_autopause" {
+  type        = bool
+  description = "Enabling auto pause will pause the JVM process 1 hour after the last client has disconnected."
+}
