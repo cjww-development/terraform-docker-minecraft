@@ -222,3 +222,9 @@ variable "java_version" {
   description = "The version of java to use in the container. As defined here https://github.com/itzg/docker-minecraft-server/blob/master/README.md#running-minecraft-server-on-different-java-version"
   default     = "latest"
 }
+
+variable "memory_limit" {
+  type        = string
+  description = "The amount of memory the containers JVM can access. Supported format/units as <size>[g|G|m|M|k|K]"
+  default     = "1G"
+}

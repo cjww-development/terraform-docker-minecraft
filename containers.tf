@@ -31,6 +31,7 @@ resource "docker_container" "minecraft" {
     "MAX_BUILD_HEIGHT=${var.max_build_height}",
     "MAX_PLAYERS=${var.max_player_count}",
     "MAX_WORLD_SIZE=${var.max_world_size}",
+    "MEMORY=${var.memory_limit}",
     "MODE=${var.game_mode}",
     "MOTD=${var.message_of_the_day}",
     "OPS=${join(",", var.admins)}",

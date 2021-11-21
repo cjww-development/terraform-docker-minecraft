@@ -52,6 +52,7 @@ No modules.
 | <a name="input_max_build_height"></a> [max\_build\_height](#input\_max\_build\_height) | The maximum height in which building is allowed. Terrain may still naturally generate above a low height limit | `number` | `256` | no |
 | <a name="input_max_player_count"></a> [max\_player\_count](#input\_max\_player\_count) | The maximum amount of players allowed onto the server | `number` | n/a | yes |
 | <a name="input_max_world_size"></a> [max\_world\_size](#input\_max\_world\_size) | Sets the maximum possible size in blocks, expressed as a radius, that the world border can obtain | `number` | `29999984` | no |
+| <a name="input_memory_limit"></a> [memory\_limit](#input\_memory\_limit) | The amount of memory the containers JVM can access. Supported format/units as <size>[g\|G\|m\|M\|k\|K] | `string` | `"1G"` | no |
 | <a name="input_message_of_the_day"></a> [message\_of\_the\_day](#input\_message\_of\_the\_day) | Message that appears to the player before login in the server list | `string` | n/a | yes |
 | <a name="input_minecraft_container_name"></a> [minecraft\_container\_name](#input\_minecraft\_container\_name) | The name of the Minecraft server container to be created | `string` | n/a | yes |
 | <a name="input_minecraft_image_name"></a> [minecraft\_image\_name](#input\_minecraft\_image\_name) | The name of the Minecraft server docker image that should be pulled | `string` | n/a | yes |
