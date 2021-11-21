@@ -43,6 +43,7 @@ No modules.
 | <a name="input_announce_player_achievements"></a> [announce\_player\_achievements](#input\_announce\_player\_achievements) | Should achievements be announced to players? | `bool` | n/a | yes |
 | <a name="input_difficulty"></a> [difficulty](#input\_difficulty) | The difficulty the server is set to | `string` | n/a | yes |
 | <a name="input_docker_host"></a> [docker\_host](#input\_docker\_host) | The host where docker resides | `string` | n/a | yes |
+| <a name="input_enable_rolling_logs"></a> [enable\_rolling\_logs](#input\_enable\_rolling\_logs) | By default the vanilla log file will grow without limit. The logger can be reconfigured to use a rolling log files. Set to false to disable rolling logs. | `bool` | `true` | no |
 | <a name="input_force_gamemode"></a> [force\_gamemode](#input\_force\_gamemode) | Force players to join in the default game mode. False = Players will join in the game mode they left in, True = Players will always join in the default game mode. | `bool` | n/a | yes |
 | <a name="input_game_mode"></a> [game\_mode](#input\_game\_mode) | Changes the game mode between survival, creative, adventure and spectator | `string` | n/a | yes |
 | <a name="input_generate_structures"></a> [generate\_structures](#input\_generate\_structures) | Should structures (such as villages) be generated? | `bool` | n/a | yes |

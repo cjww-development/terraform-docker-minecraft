@@ -23,6 +23,7 @@ resource "docker_container" "minecraft" {
   env = [
     "ALLOW_NETHER=${var.allow_nether}",
     "ANNOUNCE_PLAYER_ACHIEVEMENTS=${var.announce_player_achievements}",
+    "ENABLE_ROLLING_LOGS=${var.enable_rolling_logs}",
     "EULA=true",
     "DIFFICULTY=${var.difficulty}",
     "FORCE_GAMEMODE=${var.force_gamemode}",

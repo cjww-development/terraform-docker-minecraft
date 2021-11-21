@@ -228,3 +228,9 @@ variable "memory_limit" {
   description = "The amount of memory the containers JVM can access. Supported format/units as <size>[g|G|m|M|k|K]"
   default     = "1G"
 }
+
+variable "enable_rolling_logs" {
+  type        = bool
+  description = "By default the vanilla log file will grow without limit. The logger can be reconfigured to use a rolling log files. Set to false to disable rolling logs."
+  default     = true
+}
