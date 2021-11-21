@@ -71,6 +71,7 @@ No modules.
 | <a name="input_spawn_animals"></a> [spawn\_animals](#input\_spawn\_animals) | Should animals be able to spawn? | `bool` | n/a | yes |
 | <a name="input_spawn_monsters"></a> [spawn\_monsters](#input\_spawn\_monsters) | Should monsters be able to spawn? | `bool` | n/a | yes |
 | <a name="input_spawn_npcs"></a> [spawn\_npcs](#input\_spawn\_npcs) | Should NPCs be able to spawn? | `bool` | n/a | yes |
+| <a name="input_use_aikars_flags"></a> [use\_aikars\_flags](#input\_use\_aikars\_flags) | Use the optimal JVM flags defined by Aikar, https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/ | `bool` | n/a | yes |
 | <a name="input_view_distance"></a> [view\_distance](#input\_view\_distance) | Sets the amount of world data the server sends the client, measured in chunks in each direction of the player (radius, not diameter). It determines the server-side viewing distance. | `number` | `10` | no |
 
 ## Outputs

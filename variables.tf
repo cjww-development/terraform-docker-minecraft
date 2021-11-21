@@ -239,3 +239,8 @@ variable "enable_autopause" {
   type        = bool
   description = "Enabling auto pause will pause the JVM process 1 hour after the last client has disconnected."
 }
+
+variable "use_aikars_flags" {
+  type        = bool
+  description = "Use the optimal JVM flags defined by Aikar, https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/"
+}

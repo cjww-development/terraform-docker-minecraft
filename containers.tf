@@ -44,6 +44,7 @@ resource "docker_container" "minecraft" {
     "SPAWN_MONSTERS=${var.spawn_monsters}",
     "SPAWN_NPCS=${var.spawn_npcs}",
     "TYPE=${var.server_type}",
+    "USE_AIKAR_FLAGS=${var.use_aikars_flags}",
     "VERSION=${var.minecraft_version}",
     "VIEW_DISTANCE=${var.view_distance}",
     "WHITELIST=${join(",", var.player_whitelist)}"
