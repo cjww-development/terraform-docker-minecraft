@@ -66,6 +66,7 @@ No modules.
 | <a name="input_pvp"></a> [pvp](#input\_pvp) | By default, servers are created with player-vs-player (PVP) mode enabled. You can disable this with the PVP environment variable set to false | `bool` | `false` | no |
 | <a name="input_rcon_interface_bind"></a> [rcon\_interface\_bind](#input\_rcon\_interface\_bind) | The network interface that port 25575 will bind to | `string` | `"0.0.0.0"` | no |
 | <a name="input_rcon_port"></a> [rcon\_port](#input\_rcon\_port) | The host port number the internal port 25575 will map to | `number` | `25575` | no |
+| <a name="input_restart_policy"></a> [restart\_policy](#input\_restart\_policy) | The restart policy for the container. Must be one of 'no', 'on-failure', 'always', 'unless-stopped'. Defaults to no. | `string` | n/a | yes |
 | <a name="input_server_interface_bind"></a> [server\_interface\_bind](#input\_server\_interface\_bind) | The network interface that port 25565 will bind to | `string` | `"0.0.0.0"` | no |
 | <a name="input_server_port"></a> [server\_port](#input\_server\_port) | The host port number the internal port 25565 will map to | `number` | `25565` | no |
 | <a name="input_server_type"></a> [server\_type](#input\_server\_type) | The server type to use | `string` | n/a | yes |

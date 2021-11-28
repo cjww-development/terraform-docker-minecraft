@@ -2,6 +2,8 @@ resource "docker_container" "minecraft" {
   name  = var.minecraft_container_name
   image = docker_image.minecraft_image.latest
 
+  restart = var.restart_policy
+
   ports {
     internal = 25565
     external = var.server_port

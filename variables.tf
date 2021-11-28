@@ -250,3 +250,20 @@ variable "other_environment_variables" {
   description = "Use this list to include any other env vars that aren't included by default. Other env vars can be found here https://github.com/itzg/docker-minecraft-server"
   default     = []
 }
+
+variable "restart_policy" {
+  type        = string
+  description = "The restart policy for the container. Must be one of 'no', 'on-failure', 'always', 'unless-stopped'. Defaults to no."
+  validation {
+    condition = contains(
+      [
+        "no",
+        "on-failure",
+        "always",
+        "unless-stopped"
+      ],
+      var.restart_policy
+    )
+    error_message = "The provided value did not match a valid value."
+  }
+}
